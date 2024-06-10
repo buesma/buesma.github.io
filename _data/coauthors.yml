@@ -7,3 +7,19 @@
   - firstname: ["David", "D."]
     lastname: ["Nilsson"]
     url: https://www.chalmers.se/personer/davini/
+
+"longhini":
+  - firstname: ["Alberta", "A."]
+    lastname: ["Longhini"]
+    url: https://albilo17.github.io
+
+"duisterhof":
+  - firstname: ["Bardienus", "Bardienus Pieter"]
+    lastname: ["Duisterhof"]
+    url: https://www.bart-ai.com
+
+"marten":
+  - firstname: ["Mårten", "Marten", "M."]
+    lastname: ["Björkman"]
+    url: https://www.kth.se/profile/celle
+

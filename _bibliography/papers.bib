@@ -1,15 +1,30 @@
+
+@inproceedings{
+longhini2024clothsplatting,
+title={Cloth-Splatting: 3D Cloth State Estimation from RGB Supervision},
+author={Alberta Longhini and Marcel B{\"u}sching and Bardienus Pieter Duisterhof and Jens Lundell and Jeffrey Ichnowski and M{\r{a}}rten Bj{\"o}rkman and Danica Kragic},
+booktitle={8th Annual Conference on Robot Learning},
+abstract={We introduce Cloth-Splatting, a method for estimating 3D states of cloth from RGB images through a prediction-update framework. Cloth-Splatting leverages an action-conditioned dynamics model for predicting future states and uses 3D Gaussian Splatting to update the predicted states. Our key insight is that coupling a 3D mesh-based representation with Gaussian Splatting allows us to define a differentiable map between the cloth's state space and the image space. This enables the use of gradient-based optimization techniques to refine inaccurate state estimates using only RGB supervision. Our experiments demonstrate that Cloth-Splatting not only improves state estimation accuracy over current baselines but also reduces convergence time by 85%.},
+month=nov,
+year={2024},
+html = {https://kth-rpl.github.io/cloth-splatting/},
+url = {https://kth-rpl.github.io/cloth-splatting/},
+selected={true},
+preview={cloth-splatting.gif}
+}
+
+
 @article{flowibr,
     title = {{FlowIBR}: {Leveraging} {Pre}-{Training} for {Efficient} {Neural} {Image}-{Based} {Rendering} of {Dynamic} {Scenes}},
     shorttitle = {{FlowIBR}},
     author = {Büsching, Marcel and Bengtson, Josef and Nilsson, David and Björkman, Mårten},
-    journal={arXiv preprint, arXiv.2309.05418},
+    journal={CVPR 2024 Workshop on Efficient Deep Learning for Computer Vision},
     abstract = {We introduce a novel approach for monocular novel view synthesis of dynamic scenes. Existing techniques already show impressive rendering quality but tend to focus on optimization within a single scene without leveraging prior knowledge. This limitation has been primarily attributed to the lack of datasets of dynamic scenes available for training and the diversity of scene dynamics. Our method FlowIBR circumvents these issues by integrating a neural image-based rendering method, pre-trained on a large corpus of widely available static scenes, with a per-scene optimized scene flow field. Utilizing this flow field, we bend the camera rays to counteract the scene dynamics, thereby presenting the dynamic scene as if it were static to the rendering network. The proposed method reduces per-scene optimization time by an order of magnitude, achieving comparable results to existing methods - all on a single consumer-grade GPU.},
-    month = sep,
-    year = {2023},
+    month = jun,
+    year = {2024},
     html = {https://flowibr.github.io},
     url = {https://flowibr.github.io},
     selected={true},
-    abbr={arxiv},
     preview={flowibr.gif}
 }
 

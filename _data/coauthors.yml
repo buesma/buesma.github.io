@@ -3,6 +3,11 @@
     lastname: ["Bengtson"]
     url: https://www.chalmers.se/en/persons/bjosef/
 
+"dinkel":
+  - firstname: ["Holly", "H."]
+    lastname: ["Dinkel"]
+    url: https://hollydinkel.github.io
+
 "nilsson":
   - firstname: ["David", "D."]
     lastname: ["Nilsson"]

@@ -1,6 +1,23 @@
 
 @article{
     longhini2024clothsplatting,
+    title={DLO-Splatting: Tracking Deformable Linear Objects Using 3D Gaussian Splatting},
+    author={Holly Dinkel and Marcel B{\"u}sching and Alberta Longhini and Brian Coltin and Trey Smith and Danica Kragic and M{\r{a}}rten Bj{\"o}rkman and Timothy Bretl},
+    journal={ICRA 2024 Workshop on 3D Visual Representations for Robot Manipulation},
+    abstract={This work presents DLO-Splatting, an algorithm for estimating the 3D shape of Deformable Linear Objects (DLOs) from multi-view RGB images and gripper state information through prediction-update filtering. The DLO-Splatting algorithm uses a position-based dynamics model with shape smoothness and rigidity dampening corrections to predict the object shape. Optimization with a 3D Gaussian Splatting-based rendering loss iteratively renders and refines the prediction to align it with the visual observations in the update step. Initial experiments demonstrate promising results in a knot tying scenario, which is challenging for existing vision-only methods.},
+    month=may,
+    year={2025},
+    html = {https://arxiv.org/abs/2505.08644},
+    url = {https://arxiv.org/abs/2505.08644},
+    selected={true},
+    preview={dlo-splatting.png}
+}
+
+
+
+
+@article{
+    longhini2024clothsplatting,
     title={Cloth-Splatting: 3D Cloth State Estimation from RGB Supervision},
     author={Alberta Longhini and Marcel B{\"u}sching and Bardienus Pieter Duisterhof and Jens Lundell and Jeffrey Ichnowski and M{\r{a}}rten Bj{\"o}rkman and Danica Kragic},
     journal={8th Annual Conference on Robot Learning (CoRL)},
@@ -30,13 +47,13 @@
 
 
 @article{longhini2024distilling,
-title={Distilling Semantic Features for 3D Cloth Representations from Vision Foundation Models},
-author={Longhini, Alberta and Büsching, Marcel and Duisterhof, Bardienus Pieter and Jeffrey Ichnowski and Björkman, Mårten and Kragic, Danica},
-journal={ICRA 2024 Workshop on 3D Visual Representations for Robot Manipulation},
-abstract = {This study explores the use of vision foundation models to enhance 3D representations of cloth-like deformable objects. By focusing on the distillation of semantic information from RGB images, we examine the potential of pre-trained Visual-Language Models in capturing complex folded configurations of cloth. Our investigation reveals the challenges and preliminary successes in leveraging semantic information to improve the understanding and tracking of deformable object states.},
-year={2024},
-html={https://openreview.net/forum?id=1mwJlHsS19},
-url={https://openreview.net/forum?id=1mwJlHsS19},
-selected={true},
-preview={distilling_semantic.png}
+    title={Distilling Semantic Features for 3D Cloth Representations from Vision Foundation Models},
+    author={Longhini, Alberta and Büsching, Marcel and Duisterhof, Bardienus Pieter and Jeffrey Ichnowski and Björkman, Mårten and Kragic, Danica},
+    journal={ICRA 2024 Workshop on 3D Visual Representations for Robot Manipulation},
+    abstract = {This study explores the use of vision foundation models to enhance 3D representations of cloth-like deformable objects. By focusing on the distillation of semantic information from RGB images, we examine the potential of pre-trained Visual-Language Models in capturing complex folded configurations of cloth. Our investigation reveals the challenges and preliminary successes in leveraging semantic information to improve the understanding and tracking of deformable object states.},
+    year={2024},
+    html={https://openreview.net/forum?id=1mwJlHsS19},
+    url={https://openreview.net/forum?id=1mwJlHsS19},
+    selected={true},
+    preview={distilling_semantic.png}
 }

@@ -7,4 +7,4 @@ nav_order: 5
 description: My academic CV
 ---
 
-<meta http-equiv="refresh" content="0; URL=https://drive.google.com/file/d/1sNHNpiA1JEKFQM4Niu1flZnLebIDxBc-/view?usp=share_link" />
+<meta http-equiv="refresh" content="0; URL=https://drive.google.com/file/d/1MzBX5hzmsuNoxj3dNPcMPIOHIKxSdP7_/view?usp=sharing" />
